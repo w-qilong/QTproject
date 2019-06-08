@@ -50,6 +50,7 @@ QInputDialog.getText（输入文本
 QInputDialog.getInt（输入数字
 
 
+QColorDialog颜色对话框
 
 
 
