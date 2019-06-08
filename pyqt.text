@@ -52,6 +52,33 @@ QInputDialog.getInt（输入数字
 
 QColorDialog颜色对话框
 
+QFileDialog文件对话框
+
+绘图API：
+1.文本
+2.各种图形（直线。点。椭圆。弧线。扇形。。。。
+3.图像
+QPainter
+painter=QPainter()
+painter.begin()
+painter.drawText()
+painter.end()
+必须再paintEvent事件方法中绘制各种元素
+
+
+让控件支持拖拽动作
+A
+B.setAcceptDrops(True)
+B需要两个事件
+1.dragEnterEvent 将A托到B
+2.dropEvent 在B的区域放下A时触发
+
+使用剪贴板
+
+QCalendarWidget日历控件
+
+创建和使用菜单栏
+
 
 
 
