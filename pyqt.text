@@ -80,6 +80,9 @@ QCalendarWidget日历控件
 创建和使用菜单栏
 
 
+使用打印机
+QtprintSupport
+使用打印机对话框
+QPrintDialog
 
-
-
+显示二维表数据：QTableView
