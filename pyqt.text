@@ -127,3 +127,47 @@ QTreeview控件与系统定制模式
 堆栈窗口控件:QStackeWidget
 停靠控件：QDockWidget
 
+容纳多文档窗口：QMdiArea，QMdiSubWindow
+
+滚动条控件：QScrollBar
+
+使用线程类：QThread
+
+使用Web浏览器控件（QWebEngineView）显示网页,该控件其实就相当于一个浏览器控件
+装载本地页面
+显示载入本地的页面
+Pyqt5调用JavaScript代码
+Javascript调用python脚本
+
+绝对布局：通过move方法来实现
+水平盒布局：QHBoxLayout，可以使用QHBoxLayout的setSpacing来设置控件之间的间距
+设置控件对齐方式
+
+
+信号与槽函数
+为自定义类添加信号与槽函数：使用pyqtSignal定义信号
+定义传递多个参数的信号
+为类添加多个信号
+信号槽N对N连接与断开连接：连接使用connect(),解除连接使用disconnect（）
+为窗口添加信号：
+
+多线程更新UI数据
+信号与槽自动连接
+使用lambda表达式来为槽函数传递参数
+使用partial对象为槽函数传递对象
+
+多窗口交互：实质就是窗口之间数据的传递
+方式1：窗口交互可以使用强耦合的方式，这种方式的缺点是不灵活
+方式2：使用信号和槽函数来进行数据交互，这种方式更好
+
+设置窗口风格
+设置窗口样式
+
+设置窗体最大最小化
+
+使用Pyinstaller打包PyQt5应用，适用于所有python开发的应用程序
+pip intall pyinsatller
+pyinstaller -Fw calc.py 执行打包命令，该命令会自动打包程序，生成两个文件，
+                         一个是带命令行的执行程序，一个是不带命令行的执行程序
+
+分页显示数据：当数据比较多的时候，需要将数据分页显示
